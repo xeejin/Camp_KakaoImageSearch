@@ -19,23 +19,23 @@
 - [ ]  이미지를 검색해서 보관함에 수집하는 안드로이드 앱을 구현
 - [ ]  키워드를 입력하고 검색을 누르면 이미지 검색 결과 리스트를 보여주도록 구현
 - [ ]  이미지 검색 API는 ([**링크**](https://developers.kakao.com/docs/latest/ko/daum-search/dev-guide#search-image))의 thumbnail_url 필드를 사용
-- [ ]  UI는 fragment 2개를 사용 (버튼이나 탭 선택 시 전환)
+- [x]  UI는 fragment 2개를 사용 (버튼이나 탭 선택 시 전환)
 
 
 <br/>
  
 ## :hammer: MainActivity
 
-- [ ]  Fragment를 보여줄 FrameLayout을 만들고, 하단에 2개의 버튼(이미지 검색, 내보관함) 을 생성
-- [ ]  MainActivity 시작시 이미지 검색 fragment를 초기화면에 설정
+- [x]  Fragment를 보여줄 FrameLayout을 만들고, 하단에 2개의 버튼(이미지 검색, 내보관함) 을 생성
+- [x]  MainActivity 시작시 이미지 검색 fragment를 초기화면에 설정
 
 <br/>
 
 ## :hammer: 이미지 검색 Fragment
 
-- [ ]  검색어를 입력할 수 있도록 검색창을 구현
+- [x]  검색어를 입력할 수 있도록 검색창을 구현
 - [ ]  검색어를 입력하고 검색 버튼을 누르면 검색된 이미지 리스트를 보여줌
-- [ ]  검색 버튼을 누르면 키보드는 숨김 처리하도록 구현
+- [x]  검색 버튼을 누르면 키보드는 숨김 처리하도록 구현
 - [ ]  API 검색 결과에서 thumbnail_url, display_sitename, datetime을 받아오도록 구현
 - [ ]  RecyclerView의 각 아이템 레이아웃을 썸네일 이미지, 사이트이름, 날짜 시간 으로 구현 
 - [ ]  API 검색 결과를 RecyclerView에 표시하도록 구현
